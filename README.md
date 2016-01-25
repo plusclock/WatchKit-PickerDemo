@@ -1,4 +1,5 @@
 # WKInterfacePickerDemo
+[logo]: https://github.com/plusclock/WatchKit-PickerDemo/blob/master/PickerDemo/Assets.xcassets/AppIcon.appiconset/icon-60%403x.png
 
 ##WatchOS2 Interactivity
 
