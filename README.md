@@ -10,7 +10,7 @@ Please look at the gif below to see what the different styles and options look l
 
 ![pickerDemo](https://github.com/plusclock/WatchKit-PickerDemo/blob/master/pickerDemo.gif)
 
-##WatchOS2 Interactivity
+##WatchOS2 Interactivity: Resources
 
 ###Apple:  
 [List of Apple Resources for Watchkit](https://developer.apple.com/watchkit/)  
