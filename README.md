@@ -11,7 +11,7 @@ Programming Guide
 Framework Reference  
 Watchkit Development Tips  
 HIG  
-[Watchkit Catalog](https://developer.apple.com/library/ios/samplecode/WKInterfaceCatalog/Introduction/Intro.html)  
+[Watchkit Catalog](https://developer.apple.com/library/ios/samplecode/WKInterfaceCatalog/Introduction/Intro.html): Apple Demo Project for WatchKit   
 
 
 ###WWDC2015 Videos:  
