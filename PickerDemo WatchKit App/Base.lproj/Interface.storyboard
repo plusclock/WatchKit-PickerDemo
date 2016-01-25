@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
+    </dependencies>
+    <scenes>
+        <!--Menu Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="MenuInterfaceController" customModule="PickerDemo_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="p6T-8e-gc9">
+                            <items>
+                                <tableRow identifier="Row" id="BDn-Cd-Gc7" customClass="MenuRowController" customModule="PickerDemo_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="zXn-Yu-PHg">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="SVv-Bm-GbB"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="titleLabel" destination="SVv-Bm-GbB" id="VAW-40-BBo"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="p6T-8e-gc9" id="gCd-mO-r0S"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="114" y="215"/>
+        </scene>
+        <!--List-->
+        <scene sceneID="Xpd-fZ-HID">
+            <objects>
+                <controller identifier="ListIC" title="List" id="nG2-rl-o33" customClass="ListInterfaceController" customModule="PickerDemo_WatchKit_Extension">
+                    <items>
+                        <picker width="1" height="1" alignment="left" id="Nlr-1q-USP"/>
+                    </items>
+                    <connections>
+                        <outlet property="picker" destination="Nlr-1q-USP" id="Gm7-qA-0bn"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="302" y="215"/>
+        </scene>
+        <!--Stack-->
+        <scene sceneID="3Yi-Kx-8ht">
+            <objects>
+                <controller identifier="StackIC" title="Stack" id="PXx-Z0-jEh" customClass="StackInterfaceController" customModule="PickerDemo_WatchKit_Extension">
+                    <items>
+                        <picker width="1" height="1" alignment="left" style="stack" id="8p0-CX-6CC"/>
+                    </items>
+                    <connections>
+                        <outlet property="picker" destination="8p0-CX-6CC" id="4DG-Va-hEE"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="302" y="429"/>
+        </scene>
+        <!--Sequence-->
+        <scene sceneID="ybs-Cc-Kmo">
+            <objects>
+                <controller identifier="SequenceIC" title="Sequence" id="5Nh-y3-Q7K" customClass="SequenceInterfaceController" customModule="PickerDemo_WatchKit_Extension">
+                    <items>
+                        <picker width="1" height="1" alignment="left" style="sequence" id="kBv-NX-zeJ"/>
+                    </items>
+                    <connections>
+                        <outlet property="picker" destination="kBv-NX-zeJ" id="sqG-xu-iFT"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="302" y="642"/>
+        </scene>
+        <!--Outline-->
+        <scene sceneID="cWC-Vo-8uh">
+            <objects>
+                <controller identifier="OutlineIC" title="Outline" id="qgr-L9-P96" customClass="OutlineInterfaceController" customModule="PickerDemo_WatchKit_Extension">
+                    <items>
+                        <group alignment="center" verticalAlignment="center" id="JVD-GQ-k95">
+                            <items>
+                                <picker width="60" height="60" alignment="left" focusStyle="stack" id="tnz-5R-nZ6"/>
+                                <picker width="60" height="60" alignment="left" focusStyle="stack" id="dPH-au-saV"/>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="picker0" destination="tnz-5R-nZ6" id="RAr-jJ-H0o"/>
+                        <outlet property="picker1" destination="dPH-au-saV" id="ewj-lX-3KM"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="302" y="858"/>
+        </scene>
+        <!--Caption-->
+        <scene sceneID="GbG-cn-DiM">
+            <objects>
+                <controller identifier="CaptionIC" title="Caption" id="f1I-xu-AYo" customClass="CaptionInterfaceController" customModule="PickerDemo_WatchKit_Extension">
+                    <items>
+                        <group alignment="center" verticalAlignment="center" id="eQQ-DA-Pty">
+                            <items>
+                                <picker width="60" height="60" alignment="left" focusStyle="sequence" id="hKj-kN-GU0"/>
+                                <picker width="60" height="60" alignment="left" focusStyle="sequence" id="rJq-L9-Wx9"/>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="picker0" destination="hKj-kN-GU0" id="YlC-Cb-k0V"/>
+                        <outlet property="picker1" destination="rJq-L9-Wx9" id="Byg-fF-sPk"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="302" y="1079"/>
+        </scene>
+        <!--Indicator-->
+        <scene sceneID="6Bm-uv-5dk">
+            <objects>
+                <controller identifier="IndicatorIC" title="Indicator" id="wYB-kR-gGb" customClass="IndicatorInterfaceController" customModule="PickerDemo_WatchKit_Extension">
+                    <items>
+                        <picker width="1" height="1" alignment="left" style="sequence" indicatorMode="shownWhileFocused" id="Qgd-bc-3Qm"/>
+                    </items>
+                    <connections>
+                        <outlet property="picker" destination="Qgd-bc-3Qm" id="zLX-Zn-syX"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="302" y="1299"/>
+        </scene>
+    </scenes>
+</document>
