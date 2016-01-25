@@ -6,9 +6,9 @@ There are 3 styles of outlines: None,Outline,Outline With Caption.
 There is also the option to show an Indicator while focused, which displays the position resembling a small scrollbar.   
 Please look at the gif below to see what the different styles and options look like.
 
-![PickerDemo] (https://github.com/plusclock/WatchKit-PickerDemo/blob/master/PickerDemo/Assets.xcassets/AppIcon.appiconset/icon-60%403x.png) 
+![PickerDemo] (https://github.com/plusclock/WatchKit-PickerDemo/blob/master/PickerDemo/Assets.xcassets/AppIcon.appiconset/icon-60%403x.png)       ![attributesInspectorPicker](https://github.com/plusclock/WatchKit-PickerDemo/blob/master/attributesInspectorPicker.png)
 
-![pickerDemo](https://github.com/plusclock/WatchKit-PickerDemo/blob/master/pickerDemo.gif)   ![attributesInspectorPicker](https://github.com/plusclock/WatchKit-PickerDemo/blob/master/attributesInspectorPicker.png)
+![pickerDemo](https://github.com/plusclock/WatchKit-PickerDemo/blob/master/pickerDemo.gif)   
 
 ##WatchOS2 Interactivity: Resources
 
