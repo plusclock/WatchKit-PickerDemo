@@ -3,7 +3,8 @@
 This project is a simple demo of the picker in WatchKit (WKInterfacePicker) on the Apple Watch, introduced in WatchOS2.  
 There are 3 styles of pickers: List,Stack,Sequence.  
 There are 3 styles of outlines: None,Outline,Outline With Caption.  
-There is also the option to show an Indicator while focused, which displays the position resembling a small scrollbar.  
+There is also the option to show an Indicator while focused, which displays the position resembling a small scrollbar.   
+Please look at the gif below to see what the different styles and options look like.
 
 ![PickerDemo] (https://github.com/plusclock/WatchKit-PickerDemo/blob/master/PickerDemo/Assets.xcassets/AppIcon.appiconset/icon-60%403x.png) 
 
