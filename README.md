@@ -8,7 +8,7 @@ Please look at the gif below to see what the different styles and options look l
 
 ![PickerDemo] (https://github.com/plusclock/WatchKit-PickerDemo/blob/master/PickerDemo/Assets.xcassets/AppIcon.appiconset/icon-60%403x.png) 
 
-![pickerDemo](https://github.com/plusclock/WatchKit-PickerDemo/blob/master/pickerDemo.gif)
+![pickerDemo](https://github.com/plusclock/WatchKit-PickerDemo/blob/master/pickerDemo.gif)   ![attributesInspectorPicker](https://github.com/plusclock/WatchKit-PickerDemo/blob/master/attributesInspectorPicker.png)
 
 ##WatchOS2 Interactivity: Resources
 
