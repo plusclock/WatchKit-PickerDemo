@@ -6,10 +6,10 @@
 ###Apple:
 
 ####List of Apple Resources for Watchkit:
-Programming Guide
-Framework Reference
-Watchkit Development Tips
-HIG
+- Programming Guide
+- Framework Reference
+- Watchkit Development Tips
+- HIG
 [https://developer.apple.com/watchkit/](https://developer.apple.com/watchkit/)
 
 ####Watchkit Catalog
@@ -21,15 +21,15 @@ Example code
 ###WWDC2015 Videos:
 
 WWDC2015 208 WatchKit In-Depth, Part 2
--Digital Crown
+- Digital Crown
 [https://developer.apple.com/videos/play/wwdc2015-208/](https://developer.apple.com/videos/play/wwdc2015-208/)
 
 WWDC2015 802 Designing for the Apple Watch
-3 themes: personal communction, holistic design, lightweight interactions
+- 3 themes: personal communction, holistic design, lightweight interactions
 [https://developer.apple.com/videos/play/wwdc2015-802/](https://developer.apple.com/videos/play/wwdc2015-802/)
 
 WWDC2015 805 Apple Watch Design Tips and Tricks
-10 Common Pitfalls
+- 10 Common Pitfalls
 [https://developer.apple.com/videos/play/wwdc2015-805/](https://developer.apple.com/videos/play/wwdc2015-805/)
 
 
